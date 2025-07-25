@@ -59,7 +59,7 @@ const book = {
     hight: 16,
     width: 9,
     color:"BnW",
-    a: function(){
+    fille: function(){
         return this.title + " " + this.color;
     }
 };
@@ -75,7 +75,7 @@ document.getElementById("C0").innerHTML = Class.Name;
 
 console.log(Class["teacher"]);
 console.log(Class.teacher);
-console.log(book.a());
+console.log(book.fille());
 
 document.getElementById("ClassName").innerHTML = "Class : " + Class.Name;
 document.getElementById("ClassStudent").innerHTML = "Students: " + Class.students;
@@ -96,3 +96,21 @@ let b = "age";
 person[a] + " is " + person[b] + " years old.";
 
 document.getElementById("person").innerHTML = person[a] + " is " + person[b] + " years old.";
+
+console.log(book.fille())
+
+let player = {
+    name:"Jerry",
+    level:12,
+    rank:"Silver",
+    ActiveTime:5.6,
+    p: function(){
+        return this.name + ":" + this.rank;
+    }
+}
+
+console.log(player.name)
+console.log(player.level)
+console.log(player.rank)
+console.log(player.ActiveTime)
+console.log(player.p())
