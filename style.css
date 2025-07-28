@@ -1,18 +1,19 @@
 body {
-    background: linear-gradient(90deg, #037fdb, #00e66b);
+    height: 100%;
     margin: 0;
     padding: 0;
+    background: url(a.png);
+    background-size: 2000px;
+    /*background: linear-gradient(90deg, #037fdb, #00e66b);*/
     font-family:sans-serif;
-        font-size: 15px;
+    font-size: 15px;
     display: flex;
-    line-height: 150%;
     justify-content: center;
     align-items: center;
-    text-align: justify;
+    border: solid 1px white;
 }
-
 .container{
-    height: 520px;
+    height: 350px;
     width: 350px;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.025);
@@ -25,9 +26,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
-
 h1, p{
-    margin: 30px;
+    margin: 20px;
     color: white;
 }
